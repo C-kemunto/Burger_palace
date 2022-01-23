@@ -197,3 +197,19 @@ margin-left: 100px;
     margin-right: -200px;
     z-index: 1;
 }
+.mainmenu h3{
+    color: rgb(90, 30, 2);
+}
+.page5{
+    justify-content: center;
+    display: flex;
+    background-color: #f6b400;
+}
+.lastimage{
+    padding: 30px;
+}
+.discover{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 100px;
+}
