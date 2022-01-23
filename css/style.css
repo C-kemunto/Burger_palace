@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 .bar li{
     float: left;
@@ -55,8 +56,9 @@ float: right;
 margin-right: 180px;
 }
 .intropar{
-    margin-left: 30px;
+    margin-left: 5px;
     margin-top: 100px;
+    margin-right: -50px;
 }
 .intropar h2{
     font-weight: 700;
@@ -112,6 +114,7 @@ margin-right: 180px;
     width: 300px;
     height: 200px;
     margin: 50px;
+    overflow: hidden;
 
 }
 .fast{
@@ -128,31 +131,69 @@ margin-right: 180px;
 }
 .submenu1{
     display: flex;
+    justify-content: center;
 }
 .submenu2{
     display: flex;
+    justify-content: center;
 }
 .burger1, .burger2, .burger3{
-    border: solid rgb(90, 30, 2) 0.5px;
     border-radius: 20px;
-    margin: 20px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    border: solid rgb(90, 30, 2) 0.5px;
+    
 }
 .mainmenu a{
     display: block;
 }
 .burger4, .burger5, .burger6{
-    border: solid rgb(90, 30, 2) 0.5px;
+    border: hidden;
     border-radius: 20px;
-    margin: 20px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    margin: 10px;
+    width: 300px;
+    height: 350px;
+    border: solid rgb(90, 30, 2) 0.5px;
+}
+.mainmenu img{
+    text-align: center;
+    height: 50%;
 }
 .mainmenu{
-    text-align: center;
+    text-align: center
+}
+.mainmenu span{
+    color: #f6b400;
+}
+.deckerimg{
+   float: right; 
+}
+.page4{
+    justify-content: center;
+    background-color: rgba(233, 241, 250, 0.63);
+    display: flex;
+    
+}
+.double h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.double p{
+    color: grey;
+    font-weight: 700;
+}
+.burger1, .burger2, .burger3, .burger4, .burger5, .burger6{
+    box-shadow: 2px 2px 2px 2px rgb(207, 204, 204);
+    border: none;
+    overflow: hidden;
+}
+.burger1 i, .burger2 i, .burger3 i, .burger4 i, .burger5 i, .burger6 i{
+padding: 5px;
+background-color: #E1EBE6;
+margin-left: 100px;
+}
+#double-check1{
+    margin-right: -200px;
+    z-index: 1;
 }
