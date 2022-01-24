@@ -197,3 +197,13 @@ margin-left: 100px;
     margin-right: -200px;
     z-index: 1;
 }
+.discover p{
+font-weight: bolder;
+font-size: xx-large;
+
+}
+.lastimage{
+    width: auto;
+    float: right;
+    border: none;
+}
