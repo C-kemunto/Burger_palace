@@ -1,9 +1,7 @@
 # Burger Palace
 
 ##### By Kemunto Cindy
-### It is a description of my resume.
 
-## Table of Content
 ## Project description
 
 This is my first independent project about a restaurant website. 
