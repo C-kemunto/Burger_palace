@@ -1,6 +1,9 @@
 *{
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 .bar li{
     float: left;
@@ -19,19 +22,12 @@ cursor: pointer;
     display: flex;
     justify-content: space-between;
 }
-span{
-    text-align: left;
-}
-.text{
-    margin-left: -400px;
-    font-style: italic;
+
+.logo-name{
     font-size: 30px;
-margin-top: -7px;
-font-family: 'Lobster Two', cursive;
+font-family: 'Lobster', sans-serif;
 }
-span{
-    color: #F6B400;
-}
+
 .cart{
     margin-top: 10px;
 }
@@ -239,5 +235,9 @@ font-weight: 700;
     justify-content:space-evenly;
     align-items: center;
     list-style:none;
+}
+.img h1{
+    display: inline;
+    align-items: center;
 }
   
