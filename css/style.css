@@ -1,243 +1,71 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-.bar li{
-    float: left;
-    color: black;
-    width: 90px;
-    text-align: center;
-    font-weight: 700;
-    opacity: 0.8;
-    list-style-type: none;
-}
-.bar li:hover{
-opacity: 1;
-cursor: pointer;
-}
-.bar, .title,.intro{
-    display: flex;
-    justify-content: space-between;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.logo-name{
-    font-size: 30px;
-font-family: 'Lobster', sans-serif;
+.header {
+  height: 100vh;
+  background: linear-gradient(100deg, transparent 50%, orange 50%);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 50px 0 50px;
+}
+.nav h2 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Lobster" sans-serif;
+}
+.nav h2 span {
+  color: orange;
 }
 
-.cart{
-    margin-top: 10px;
+.nav ul {
+  margin-left: auto;
 }
-.fas{
-    font-size: 20px;
+.nav ul li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 500;
 }
-.cart span{
-    background-color: orangered;
-    border-radius: 20px;
-    padding: 3px;
-    font-size: xx-small;
-    overflow: hidden;
+.nav ul li a {
+  text-decoration: none;
+  color: black;
 }
-hr{
-    padding: 3px;
-    width: 50px;
-    background-color: orangered;
-    border: none;
-    overflow: hidden;
+.nav ul li a:hover {
+  color: white;
 }
-.img2 img{
-height: 50%;
-float: right;
-margin-right: 180px;
+
+.hero {
+  display: flex;
+  justify-content: space-around;
 }
-.intropar{
-    margin-left: 5px;
-    margin-top: 100px;
-    margin-right: -50px;
+.hero-header {
+  margin-top: 100px;
+  font-size: 40px;
 }
-.intropar h2{
-    font-weight: 700;
-    font-size: xx-large;
+
+.hero-left p {
+  margin-top: 100px;
+  font-size: 20px;
+  color: gray;
 }
-.intropar p{
-    color: grey;
-    font-weight: bold;
-    margin-top: 20px;
+.hero-left button {
+  margin-top: 100px;
+  padding: 20px;
+  border: none;
+  border-radius: 20px 20px 0 20px;
+  background-color: orange;
 }
-.intropar button{
-    margin-top: 130px;
-    background-color: #F6B400;
-    border: none;
-    border-radius: 20px;
-    padding: 15px;
-    margin-left: 50px;
+.hero-left button:hover {
+    border-radius: 20px 0 20px 20px;
     color: white;
-    font-weight: bold;
 }
-.intropar button:hover{
-    cursor: pointer;
-    color: blueviolet;
-}
-.background{
-    height: 900px;
-    width: 800px;
-    background-color: #F6B400;
-    position: absolute;
-    right: -9%;
-    z-index: -1;
-    transform: skewX(-10deg);
-}
-.page2{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(233, 241, 250, 0.63);
-    margin-top: -661px;
-    text-align: center;
-    padding: 50px;
-}
-.quality, .fast, .delicious{
-    border: solid rgb(90, 30, 2) 0.5px;
-    border-radius: 20px;
-    margin: 20px;
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 50px;
 
+.img {
+    margin-right: 170px;
 }
-.delicious, .quality{
-    width: 300px;
-    height: 200px;
-    margin: 50px;
-    overflow: hidden;
-
-}
-.fast{
-    width: 400px;
-    height: 300px;
-}
-.page2 .fas{
-    color: #f6b400;
-    font-size: 60px;
-    
-}
-.page2 h2{
-    color: rgb(90, 30, 2);
-}
-.submenu1{
-    display: flex;
-    justify-content: center;
-}
-.submenu2{
-    display: flex;
-    justify-content: center;
-}
-.burger1, .burger2, .burger3{
-    border-radius: 20px;
-    margin: 10px;
-    width: 300px;
-    height: 350px;
-    border: solid rgb(90, 30, 2) 0.5px;
-    
-}
-.mainmenu a{
-    display: block;
-}
-.burger4, .burger5, .burger6{
-    border: hidden;
-    border-radius: 20px;
-    margin: 10px;
-    width: 300px;
-    height: 350px;
-    border: solid rgb(90, 30, 2) 0.5px;
-}
-.mainmenu img{
-    text-align: center;
-    height: 50%;
-}
-.mainmenu{
-    text-align: center
-}
-.mainmenu span{
-    color: #f6b400;
-}
-.deckerimg{
-   float: right; 
-}
-.page4{
-    justify-content: center;
-    background-color: rgba(233, 241, 250, 0.63);
-    display: flex;
-    
-}
-.double h2{
-    font-size: xx-large;
-    font-weight: bolder;
-}
-.double p{
-    color: grey;
-    font-weight: 700;
-}
-.burger1, .burger2, .burger3, .burger4, .burger5, .burger6{
-    box-shadow: 2px 2px 2px 2px rgb(207, 204, 204);
-    border: none;
-    overflow: hidden;
-}
-.burger1 i, .burger2 i, .burger3 i, .burger4 i, .burger5 i, .burger6 i{
-padding: 5px;
-background-color: #E1EBE6;
-margin-left: 100px;
-}
-#double-check1{
-    margin-right: -200px;
-}
-#double-check2{
-    z-index: 1;
-}
-.discover p{
-font-weight: bolder;
-font-size: xx-large;
-
-}
-.lastimage{
-    width: auto;
-    float: right;
-    border: none;
-    padding-bottom: 200px;
-}
-.page5{
-    background-color: #f6b400;
-    display: flex;
-    justify-content: space-between;
-}
-.discover i{
-color: #f6b400;
-}
-.footer{
-    display: flex;
-    justify-content: space-between;
-padding: 20px;
-}
-.copyright{
-    display: flex;
-    justify-content: space-between;
-}
-.sitemap h3{
-font-size: x-large;
-font-weight: 700;
-}
-.sitemap ul{
-    height:200px;
-    display: inline-block;
-    justify-content:space-evenly;
-    align-items: center;
-    list-style:none;
-}
-.img h1{
-    display: inline;
-    align-items: center;
-}
-  
