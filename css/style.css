@@ -173,14 +173,24 @@ hr{
 	padding: 250px 0;
 }
 .double h2 {
-	font-size: xx-large;
-	font-weight: bolder;
+	font-size: 50px;
+	font-weight: 700;
+  padding: 30px;
+  color: black;
 }
 .double p {
 	color: grey;
 	font-weight: 700;
+  padding: 30px;
 }
+#ellipsis, #arrow {
+  color: gray;
+  font-size: 50px;
+  margin-left: 70px;
+  margin-top: 50px;
 
+
+}
 .deckerimg {
 	float: right;
 }
