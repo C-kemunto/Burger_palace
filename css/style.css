@@ -69,3 +69,156 @@
 .img {
     margin-right: 170px;
 }
+
+.page2 {
+	display: flex;
+	align-items: center;
+	background-color: rgba(233, 241, 250, 0.63);
+	text-align: center;
+	padding: 200px 50px;
+	gap: 40px;
+}
+.quality,
+.fast,
+.delicious {
+	border: solid rgb(90, 30, 2) 0.5px;
+	border-radius: 20px;
+	padding: 50px;
+	width: 30%;
+}
+
+.page2 .fas {
+	color: #f6b400;
+	font-size: 60px;
+}
+.page2 h2 {
+	color: rgb(90, 30, 2);
+}
+.submenu1 {
+	display: flex;
+	justify-content: center;
+}
+.submenu2 {
+	display: flex;
+	justify-content: center;
+}
+.burger1,
+.burger2,
+.burger3 {
+	border-radius: 20px;
+	margin: 10px;
+	width: 300px;
+	height: 350px;
+	border: solid rgb(90, 30, 2) 0.5px;
+}
+.mainmenu a {
+	display: block;
+}
+.burger4,
+.burger5,
+.burger6 {
+	border: hidden;
+	border-radius: 20px;
+	margin: 10px;
+	width: 300px;
+	height: 350px;
+	border: solid rgb(90, 30, 2) 0.5px;
+}
+.mainmenu img {
+	text-align: center;
+	height: 50%;
+}
+.mainmenu {
+	text-align: center;
+}
+.mainmenu span {
+	color: #f6b400;
+}
+.deckerimg {
+	float: right;
+}
+.page4 {
+	justify-content: space-around;
+	background-color: rgba(233, 241, 250, 0.63);
+	display: flex;
+	padding: 250px 0;
+}
+.double h2 {
+	font-size: xx-large;
+	font-weight: bolder;
+}
+.double p {
+	color: grey;
+	font-weight: 700;
+}
+.burger1,
+.burger2,
+.burger3,
+.burger4,
+.burger5,
+.burger6 {
+	box-shadow: 2px 2px 2px 2px rgb(207, 204, 204);
+	border: none;
+	overflow: hidden;
+}
+.burger1 i,
+.burger2 i,
+.burger3 i,
+.burger4 i,
+.burger5 i,
+.burger6 i {
+	padding: 5px;
+	background-color: #e1ebe6;
+	margin-left: 100px;
+}
+#double-check1 {
+	margin-right: -200px;
+}
+#double-check2 {
+	z-index: 1;
+}
+
+.discover p {
+	font-weight: bolder;
+	font-size: xx-large;
+	padding-top: 200px;
+}
+.lastimage {
+	width: auto;
+	float: right;
+	border: none;
+	padding-bottom: 200px;
+}
+.page5 {
+	background-color: #f6b400;
+	display: flex;
+	justify-content: space-around;
+}
+.discover i {
+	color: #f6b400;
+}
+.discover > img {
+	padding-top: 100px;
+	object-fit: contain;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+.copyright {
+	display: flex;
+	justify-content: space-between;
+}
+.sitemap h3 {
+	font-size: x-large;
+	font-weight: 700;
+}
+.sitemap ul {
+	height: 200px;
+	display: inline-block;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style: none;
+}
