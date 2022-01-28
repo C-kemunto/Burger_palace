@@ -141,6 +141,7 @@ hr{
 .mainmenu {
 	text-align: center;
 }
+
 .mainmenu span {
 	color: #f6b400;
 }
@@ -155,6 +156,7 @@ hr{
 	border: none;
 	overflow: hidden;
 }
+
 .burger1 i,
 .burger2 i,
 .burger3 i,
@@ -172,12 +174,14 @@ hr{
 	display: flex;
 	padding: 250px 0;
 }
+
 .double h2 {
 	font-size: 50px;
 	font-weight: 700;
   padding: 30px;
   color: black;
 }
+
 .double p {
 	color: grey;
 	font-weight: 700;
@@ -207,6 +211,7 @@ hr{
 	font-size: xx-large;
 	padding-top: 200px;
 }
+
 .lastimage {
 	width: auto;
 	float: right;
@@ -214,6 +219,7 @@ hr{
 	padding: 100px;
   margin: 30px;
 }
+
 .page5 {
 	background-color: #f6b400;
 	display: flex;
@@ -223,15 +229,15 @@ hr{
 .discover i {
 	color: #f6b400;
 }
+
 #googleapp, #appstore {
  object-fit: contain;
  height: 200px;
  width: 200px;
 }
-.discover > img {
 
+.discover > img {
 	object-fit: contain;
- 
 }
 
 .footer {
@@ -239,14 +245,33 @@ hr{
 	justify-content: space-between;
 	padding: 20px;
 }
+
 .copyright {
 	display: flex;
 	justify-content: space-between;
 }
+
+.nav-footer{
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10 50px;
+}
+
+.nav-footer h2{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'poppins' sans-serif;
+
+}
+.nav-footer span{
+  color: orange;
+}
+
 .sitemap h3 {
 	font-size: x-large;
 	font-weight: 700;
 }
+
 .sitemap ul {
 	width: 60px;
 	display: inline-block;
@@ -254,20 +279,35 @@ hr{
 	align-items: center;
 	list-style: none;
 }
+.sign_up h3{
+  font-size: x-large;
+  font-weight: 700;
+}
 
-.footer-sign_up button{
+.sign_up button{
   padding: 12px;
   background-color: orange;
   border: none;
   color: #fff;
   font-size: 20px;
 }
-.footer-sign_up input:focus{
+.sign_up input:focus{
   border-radius: 4px;
   font-size: 18px;
   padding-left: 5px;
   color: gray;
 }
-.footer-sign_up input::placeholder{
+.sign_up input::placeholder{
   color: gray;
+  font-size: 18px;
+  padding-left: 5px;
+  margin-right: 0%;
+}
+.sign_up input{
+  height: 50px;
+  width: 400px;
+  margin-top: 30px;
+  padding-left: 5px;
+  border: 1px solid lightblue;
+  font-size: 18px;
 }
