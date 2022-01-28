@@ -16,7 +16,7 @@
 .nav h2 {
   font-size: 40px;
   font-weight: 700;
-  font-family: "Lobster" sans-serif;
+  font-family: 'Poppins' sans-serif;
 }
 .nav h2 span {
   color: orange;
@@ -30,7 +30,7 @@
   display: inline;
   padding: 0 20px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .nav ul li a {
   text-decoration: none;
@@ -38,6 +38,16 @@
 }
 .nav ul li a:hover {
   color: white;
+  opacity: 0.6;
+}
+hr{
+  width: 50px;
+  background-color: orangered;
+  padding: 3px;
+  overflow: hidden;
+  border-style: none;
+  border-image: initial;
+  display: block;
 }
 
 .hero {
@@ -134,23 +144,7 @@
 .mainmenu span {
 	color: #f6b400;
 }
-.deckerimg {
-	float: right;
-}
-.page4 {
-	justify-content: space-around;
-	background-color: rgba(233, 241, 250, 0.63);
-	display: flex;
-	padding: 250px 0;
-}
-.double h2 {
-	font-size: xx-large;
-	font-weight: bolder;
-}
-.double p {
-	color: grey;
-	font-weight: 700;
-}
+
 .burger1,
 .burger2,
 .burger3,
@@ -171,6 +165,26 @@
 	background-color: #e1ebe6;
 	margin-left: 100px;
 }
+
+.page4 {
+	justify-content: space-around;
+	background-color: rgba(233, 241, 250, 0.63);
+	display: flex;
+	padding: 250px 0;
+}
+.double h2 {
+	font-size: xx-large;
+	font-weight: bolder;
+}
+.double p {
+	color: grey;
+	font-weight: 700;
+}
+
+.deckerimg {
+	float: right;
+}
+
 #double-check1 {
 	margin-right: -200px;
 }
@@ -187,19 +201,25 @@
 	width: auto;
 	float: right;
 	border: none;
-	padding-bottom: 200px;
+	padding: 100px;
+  margin: 30px;
 }
 .page5 {
 	background-color: #f6b400;
 	display: flex;
 	justify-content: space-around;
 }
+
 .discover i {
 	color: #f6b400;
 }
+#googleapp, #appstore {
+  background-color: #f6b400;
+}
 .discover > img {
-	padding-top: 100px;
+
 	object-fit: contain;
+ 
 }
 
 .footer {
@@ -216,9 +236,14 @@
 	font-weight: 700;
 }
 .sitemap ul {
-	height: 200px;
+	width: 60px;
 	display: inline-block;
 	justify-content: space-evenly;
 	align-items: center;
 	list-style: none;
+}
+
+.sign_up button{
+  padding: 20px;
+  background-color: orange;
 }
